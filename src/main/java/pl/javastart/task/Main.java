@@ -9,7 +9,7 @@ public class Main {
         Room room4 = new Room(23, 31, false);
 
 //        Ustawiam temp w zaleznosci czy pokoj ma klime czy nie. Zakomentowane w celu dalszych testow ale dziala:)
-//        room1.tempMin(28);
+        room1.tempMin(28);
 //        room2.tempMin(25);
 //        room3.tempMin(20);
 //        room4.tempMin(27);
@@ -19,11 +19,17 @@ public class Main {
         System.out.println(room1.getActualTemp());
         System.out.println(room1.tempDecrease());
         System.out.println(room1.getActualTemp());
-
-        System.out.println(room3.getActualTemp());
-        System.out.println(room3.tempDecrease());
-        System.out.println(room3.getActualTemp());
-        System.out.println(room3.tempDecrease());
-        System.out.println(room3.getActualTemp());
+        System.out.println(room1.tempDecrease());
+        System.out.println(room1.getActualTemp());
+        System.out.println(room1.tempDecrease());
+        System.out.println(room1.getActualTemp());
+        System.out.println(room1.tempDecrease());
+        System.out.println(room1.getActualTemp());
+        
+//        System.out.println(room3.getActualTemp());
+//        System.out.println(room3.tempDecrease());
+//        System.out.println(room3.getActualTemp());
+//        System.out.println(room3.tempDecrease());
+//        System.out.println(room3.getActualTemp());
     }
 }
